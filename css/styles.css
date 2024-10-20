@@ -322,9 +322,9 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: background-color 250 ms cubic-bezier(0.4, 0, 0.2, 1)
+transition: background-color 250 ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-soc-link:hover .team-soc-link:focus {
+.team-soc-link:hover, .team-soc-link:focus {
 background-color:#404bbf;
 }
 .team-soc-icon {
@@ -426,9 +426,7 @@ footer {
     display: flex;
     align-items: baseline;}
 .container-logo {
-    margin-left: 156px;
-    margin-right: 120px;
-}
+    margin-right: 120px;}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
