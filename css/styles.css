@@ -266,11 +266,8 @@ padding-bottom: 120px;
     
 }
 .name {
-    padding: 32px 0px;
+    padding: 32px 0px;}
 
-
-
-}
 .team-title {
 font-weight: 700;
 font-size: 36px;
@@ -322,7 +319,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: background-color 250 ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover, .team-soc-link:focus {
 background-color:#404bbf;
