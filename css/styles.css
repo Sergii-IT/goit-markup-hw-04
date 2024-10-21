@@ -129,6 +129,7 @@ position: relative;
     .effective {
     max-width: 1440px;
     background: #2e2f42;
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -330,7 +331,7 @@ background-color:#404bbf;
 
 /*---------------portfolio-----------------*/
 .portfolio {
-    background-color: #F4F4FD;
+   
     padding-top: 120px;
     padding-bottom: 120px;
 }
